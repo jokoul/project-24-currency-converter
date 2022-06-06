@@ -1,4 +1,16 @@
-# Getting Started with Create React App
+# project-24-currency-converter
+
+## Description
+
+This is an application to convert currency using exchangeRate-API. It is build with the framework React.js.
+
+## Stack
+
+React.js, exchangeRate-API
+
+## Launch
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
