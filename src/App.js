@@ -1,10 +1,13 @@
 import "./App.css";
-import Currency from "./component/Currency";
+import CurrencyRow from "./component/CurrencyRow";
 
 function App() {
   return (
     <div className="App">
-      <Currency />
+      <h1>Currency Converter</h1>
+      <CurrencyRow />
+      <h2>=</h2>
+      <CurrencyRow />
     </div>
   );
 }
