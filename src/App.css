@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  margin: 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.453),
+      rgba(255, 255, 255, 0.533)
+    ),
+    url("assets/currency.jpg") center center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  /* font-size: 1.2rem; */
+  width: 100%;
 }
-
-.App-link {
-  color: #61dafb;
+.App {
+  background: linear-gradient(rgba(18, 13, 13, 0.418), rgba(35, 29, 29, 0.434)),
+    url("assets/freepik.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 0.5rem;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+h1 {
+  font-size: 2.5rem;
+  color: rgb(255, 252, 84);
+  font-weight: 900;
+  text-shadow: 5px 5px 5px black;
+}
+h2 {
+  text-align: center;
+  margin-right: 2.5rem;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: aliceblue;
+}
+select {
+  margin-left: 0.5rem;
+}
+@media screen and (max-width: 365px) {
+  h1 {
+    font-size: 1.8rem;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+@media screen and (max-width: 768px) {
 }

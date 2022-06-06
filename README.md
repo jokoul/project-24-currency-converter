@@ -2,13 +2,15 @@
 
 ## Description
 
-This is an application to convert currency using exchangeRate-API. It is build with the framework React.js.
+This is an application to convert currency using exchangeRate-API. It is build with the framework React.js and deploy with firebase. This project allowed me to use Hooks like "useState" to store data, "useEffect" to run fonction when some data change in the dependency array. I used also props to pass datas and methods from the parent component to the child components.
 
 ## Stack
 
 React.js, exchangeRate-API
 
 ## Launch
+
+https://currency-converter-22b76.firebaseapp.com/
 
 ## Getting Started with Create React App
 
