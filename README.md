@@ -6,7 +6,7 @@ This is an application to convert currency using exchangeRate-API. It is build w
 
 ## Stack
 
-React.js, exchangeRate-API
+React.js, exchangeRate-API, FIREBASE
 
 ## Launch
 
